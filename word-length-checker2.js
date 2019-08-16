@@ -5,10 +5,10 @@ const arr = txt.split('')
 arr.forEach(i => {
     if (!obj[i]) {
         if (i == ' ') {
-            if (!obj['공백']) {
-                obj['공백'] = 0
+            if (!obj[' ']) {
+                obj[' '] = 0
             }
-            obj['공백']++
+            obj[' ']++
                 return;
         } else {
             obj[i] = 0
